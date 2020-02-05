@@ -1,0 +1,32 @@
+.calculator {
+    width: 600px;
+    margin: auto;
+}
+
+.row {
+    width: 592px;
+    margin: auto;
+    height: 80px;
+}
+
+.btn {
+    height: 70px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.form-control {
+    height: 70px;
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .calculator {
+        width: 100%;
+        margin: 0;
+    }
+    .row {
+        width: 100%;
+        margin: 0;
+    }
+}
