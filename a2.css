@@ -1,6 +1,12 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
 .calculator {
-    width: 600px;
+    width: 600px;   
     margin: auto;
+    border: 2px solid rgb(0, 137, 172);
+    border-radius: 1%;
+    background-color: rgb(245, 245, 245);
 }
 
 .row {
@@ -9,10 +15,26 @@
     height: 80px;
 }
 
+.row-short {
+    height: 60px;
+}
+
 .btn {
     height: 70px;
     font-weight: 500;
     font-size: 1.3rem;
+}
+
+.btn:disabled {
+    opacity: 0.4;
+}
+
+.form-control:read-only {
+    background-color: inherit;
+}
+
+.error::placeholder {
+    color: rgb(228, 102, 102);
 }
 
 .form-control {
